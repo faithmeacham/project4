@@ -4,7 +4,7 @@ from fastapi import Request
 app = FastAPI()
 
 @app.get("/fibonacci/{length}")
-async def length(length: int):
+async def fib(fib: str):
     fib-string = "1"
     prev = 1
     current = 1
